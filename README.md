@@ -6,3 +6,6 @@ Documentation on Setting Up Mining Node for MARO on Hyper-V Running Linux Server
 [Build GTTC](https://github.com/TTCECO/gttc/wiki/Building-GTTC)
 
 [Build Mining Node](https://github.com/TTCECO/gttc/wiki/HOWTO-BUILD-SUPERNODE)
+
+## Usinf the console on your Node
+[MARO CONSOLE](https://github.com/achuchavo/MARO-MAINNET-ON-HYPER-V/blob/main/Using%20MARO%20Console)
