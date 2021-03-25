@@ -4,3 +4,5 @@ Documentation on Setting Up Mining Node for MARO on Hyper-V Running Linux Server
 ## To Install GTTC for mining check out the following Links
 
 [Build GTTC](https://github.com/TTCECO/gttc/wiki/Building-GTTC)
+
+[Build Mining Node](https://github.com/TTCECO/gttc/wiki/HOWTO-BUILD-SUPERNODE)
