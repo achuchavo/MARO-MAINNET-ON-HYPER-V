@@ -48,3 +48,10 @@ iptables -L
 [More Info on Inbound/Outbound rules](https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands)
 
 
+#### Install Putty on Host Computer (Windows 10)
+
+[Putty Exe File](https://github.com/achuchavo/MARO-MAINNET-ON-HYPER-V/tree/main/Putty)
+
+- After downloading putty enter ip of linux server using port 22 and connect
+
+
