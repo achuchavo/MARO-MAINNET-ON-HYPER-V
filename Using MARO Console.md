@@ -89,6 +89,7 @@ personal.unlockAccount("addr","pwd");
 | #    | Type                               | Description                                                  |
 | ---- | ---------------------------------- | ------------------------------------------------------------ |
 | 1    | {`addr`(`string`)}                  | address existing on node                               |
+| 1    | {`pwd`(`string`)}                  |  password of address existing on node                               |
 
 #### Command to Cast vote
 After unlocking address run this command to vote.
@@ -108,4 +109,42 @@ value:0,data:web3.toHex("ufo:1:event:vote")
 | ---- | ---------------------------------- | ------------------------------------------------------------ |
 | 1    | {`voter_addr`(`string`)}                  | voter's address address                               |
 | 2    | {`node_addr`(`string`)}                  | address of representative                               |
+
+
+### SendMaro
+Before sending Maro you must first unlock address with password. To unlock address :
+
+#### Command To unlock Address
+
+```
+personal.unlockAccount("addr","pwd");
+```
+
+##### Command Parameters
+
+| #    | Type                               | Description                                                  |
+| ---- | ---------------------------------- | ------------------------------------------------------------ |
+| 1    | {`addr`(`string`)}                  | address existing on node                               |
+| 1    | {`pwd`(`string`)}                  |  password of address existing on node                               |
+
+#### Command to Send Maro
+After unlocking address run this command to send Maro.
+
+```
+web3.eth.sendTransaction({
+from: "from_addr",
+to: "to_addr",
+value: web3.toWei(10, "ether")
+});
+
+
+```
+
+##### Command Parameters
+
+| #    | Type                               | Description                                                  |
+| ---- | ---------------------------------- | ------------------------------------------------------------ |
+| 1    | {`from_addr`(`string`)}                  | address existing on node                               |
+| 2    | {`to_addr`(`string`)}                  | receiver's address                               |
+| 3    | {`10`(`integer`)}                  | amount of maro to send                               |
 
