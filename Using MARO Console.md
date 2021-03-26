@@ -56,3 +56,19 @@ personal.newAccount()
 eth.accounts
 ```
 
+### CheckBalance
+
+
+#### Command
+ Check balance of address
+
+```
+web3.fromWei(eth.getBalance("addr"), "ether")
+```
+
+##### Command Parameters
+
+| #    | Type                               | Description                                                  |
+| ---- | ---------------------------------- | ------------------------------------------------------------ |
+| 1    | {[`addr`](`string`)}                  | maro valid address                               |
+
