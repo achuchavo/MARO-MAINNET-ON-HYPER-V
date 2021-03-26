@@ -18,6 +18,8 @@ Replace `datadir` with the name of your data directory
 - [Create Address - 주소 만들기 ](#CreateAddress)
 - [Check Address List - 주소 목록 확인 ](#AddressList)
 - [Check Address Balance - 주소 자산 확인 ](#CheckBalance)
+- [Send Vote - 투표 하기 ](#SendVote)
+- [Send MARO - 마로 전송 하기 ](#SendMaro)
 
 
 ### CreateAddress
@@ -71,4 +73,39 @@ web3.fromWei(eth.getBalance("addr"), "ether")
 | #    | Type                               | Description                                                  |
 | ---- | ---------------------------------- | ------------------------------------------------------------ |
 | 1    | {`addr`(`string`)}                  | maro valid address                               |
+
+
+### SendVote
+Before voting you must first unlock address with password. To unlock address :
+
+#### Command To unlock Address
+
+```
+personal.unlockAccount("addr","pwd");
+```
+
+##### Command Parameters
+
+| #    | Type                               | Description                                                  |
+| ---- | ---------------------------------- | ------------------------------------------------------------ |
+| 1    | {`addr`(`string`)}                  | address existing on node                               |
+
+#### Command to Cast vote
+After unlocking address run this command to vote.
+
+```
+eth.sendTransaction({
+from:"voter_addr",
+to:"node_addr",
+value:0,data:web3.toHex("ufo:1:event:vote")
+});
+
+```
+
+##### Command Parameters
+
+| #    | Type                               | Description                                                  |
+| ---- | ---------------------------------- | ------------------------------------------------------------ |
+| 1    | {`voter_addr`(`string`)}                  | voter's address address                               |
+| 2    | {`node_addr`(`string`)}                  | address of representative                               |
 
