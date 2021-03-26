@@ -70,5 +70,5 @@ web3.fromWei(eth.getBalance("addr"), "ether")
 
 | #    | Type                               | Description                                                  |
 | ---- | ---------------------------------- | ------------------------------------------------------------ |
-| 1    | {[`addr`](`string`)}                  | maro valid address                               |
+| 1    | {`addr`(`string`)}                  | maro valid address                               |
 
