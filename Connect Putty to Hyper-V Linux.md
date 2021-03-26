@@ -15,6 +15,12 @@ Run the following command to check status of SSh on linux
 systemctl status sshd
 ```
 
+#### Stop SSH
+
+```
+/etc/init.d/ssh stop
+```
+
 #### Start SSH
 
 ```
@@ -26,3 +32,19 @@ systemctl status sshd
 ```
 /etc/init.d/ssh stop
 ```
+
+#### Get IP of VM Linux
+
+```
+ifconfig
+```
+
+#### Check inbound/outbound rules
+
+```
+iptables -L
+```
+
+[More Info on Inbound/Outbound rules](https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands)
+
+
