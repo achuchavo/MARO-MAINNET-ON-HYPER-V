@@ -8,4 +8,11 @@ Documentation on Setting Up Mining Node for MARO on Hyper-V Running Linux Server
 [Build Mining Node](https://github.com/TTCECO/gttc/wiki/HOWTO-BUILD-SUPERNODE)
 
 ## Using the console on your Node
-[MARO CONSOLE](https://github.com/achuchavo/MARO-MAINNET-ON-HYPER-V/blob/main/Using%20MARO%20Console)
+[MARO CONSOLE](https://github.com/achuchavo/MARO-MAINNET-ON-HYPER-V/blob/main/Using%20MARO%20Console.md)
+
+
+## Connect to Hyper-V Linux Server via Putty
+[MARO CONSOLE](https://github.com/achuchavo/MARO-MAINNET-ON-HYPER-V/blob/main/Connect%20Putty%20to%20Hyper-V%20Linux.md)
+
+## Troubleshooting
+[MARO CONSOLE](https://github.com/achuchavo/MARO-MAINNET-ON-HYPER-V/blob/main/TROUBLESHOOTING.md)
