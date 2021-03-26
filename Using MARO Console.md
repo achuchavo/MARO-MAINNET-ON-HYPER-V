@@ -35,3 +35,24 @@ personal.newAccount("pwd")
 | #    | Type                               | Description                                                  |
 | ---- | ---------------------------------- | ------------------------------------------------------------ |
 | 1    | {[`pwd`](`string`)}                  | address passowrd                               |
+
+
+
+#### Command 2
+ Create address with password prompt. You will be prompted to enter password for address.
+
+```
+personal.newAccount()
+```
+
+
+### AddressList
+
+
+#### Command
+ Check List of Addresses with the following command
+
+```
+eth.accounts
+```
+
