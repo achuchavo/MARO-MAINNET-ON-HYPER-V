@@ -20,16 +20,17 @@ Replace `datadir` with the name of your data directory
 - [Check Address Balance - 주소 자산 확인 ](#CheckBalance)
 
 
-### Create Address
+### CreateAddress
 
-#### Command 1 
+#### Command 1
+ Create address without password prompt.
 
 ```
 personal.newAccount("pwd")
 ```
 
 
-#### Command Parameters (Body)
+##### Command 1 Parameters (Body)
 
 | #    | Type                               | Description                                                  |
 | ---- | ---------------------------------- | ------------------------------------------------------------ |
