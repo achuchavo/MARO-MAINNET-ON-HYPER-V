@@ -34,7 +34,7 @@ personal.newAccount("pwd")
 
 | #    | Type                               | Description                                                  |
 | ---- | ---------------------------------- | ------------------------------------------------------------ |
-| 1    | {[`pwd`](`string`)}                  | address passowrd                               |
+| 1    | {`pwd`(`string`)}                  | address passowrd                               |
 
 
 
