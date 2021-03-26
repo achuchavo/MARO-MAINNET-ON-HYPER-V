@@ -15,9 +15,9 @@ Replace `datadir` with the name of your data directory
 
 # Console Commands ( 콘솔 명량 )
 
-- [Create Address - 주소 만들기 ](#Create Address)
-- [Check Address List - 주소 목록 확인 ](#Address List)
-- [Check Address Balance - 주소 자산 확인 ](#Check Balance)
+- [Create Address - 주소 만들기 ](#CreateAddress)
+- [Check Address List - 주소 목록 확인 ](#AddressList)
+- [Check Address Balance - 주소 자산 확인 ](#CheckBalance)
 
 
 ### Create Address
