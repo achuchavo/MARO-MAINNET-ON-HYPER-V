@@ -3,6 +3,8 @@
 
 List of possible difficulties and solutions!
 
+https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands
+
 
 #### Lee ChangHun Server Template
 
