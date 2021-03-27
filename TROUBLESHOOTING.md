@@ -1,6 +1,10 @@
 
 # MARO on HYPER-V LINUX TROUBLESHOOT
 
+
+admin.addPeer("enode://cc0c3190f9601fb8474b11c29482eb3274b2a0437bd238107be031681d131ad5c46d591f317d3a299e930fa5463caa3af7094f4b12e0b06b7c05ce2e86af4196@52.79.243.253:30303")
+
+
 List of possible difficulties and solutions!
 
 https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands
