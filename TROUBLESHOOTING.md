@@ -12,7 +12,7 @@ https://www.digitalocean.com/community/tutorials/iptables-essentials-common-fire
 
 #### Lee ChangHun Server Template
 
-CH L (Node) - t0f45751b8cd68e9d52f1f46312eae19a6eff4b900
+xxx (Node) - t0f45751b8cd68e9d52f1f46312eae19a6eff4b900
 t0b941587170843011e569ca498031b63c00cf7631
 ----
 apt-get update
@@ -27,39 +27,39 @@ https://github.com/TTCECO/gttc/wiki/HOWTO-BUILD-SUPERNODE
 after make gttc create account then go build ethkey
 ----
 cd ~/go/src/github.com/TTCECO/gttc/build/bin/
-mkdir chl
-./gttc --datadir  chl/ account new
+mkdir xxx
+./gttc --datadir  xxx/ account new
 ---
 ADDRESS : 
 GET PRIVATE KEY AND PUBLIC KEY
-cd ~/go/src/github.com/TTCECO/gttc/build/bin//chl/keystore
+cd ~/go/src/github.com/TTCECO/gttc/build/bin//xxx/keystore
 ls
 UTC--2021-03-25T08-44-25.486178567Z--b941587170843011e569ca498031b63c00cf7631
 
 cd ~/go/src/github.com/TTCECO/gttc/cmd/ethkey/
 
-./ethkey inspect ~/go/src/github.com/TTCECO/gttc/build/bin/chl/keystore/UTC--2021-03-25T08-44-25.486178567Z--b941587170843011e569ca498031b63c00cf7631 --private
+./ethkey inspect ~/go/src/github.com/TTCECO/gttc/build/bin/xxx/keystore/UTC--2021-03-25T08-44-25.486178567Z--b941587170843011e569ca498031b63c00cf7631 --private
 
 PUBLIC : 04e5c3579c9418cbc5caf85c63ad8cb86770dd6cee15dc837588a1a62ec39681f3c238f4e3407ac643caa8615a14da9d67d18e1571b1218c3f90493dbb3cf07bba
-PRIVATE : 5c1bdd765c3c42864b973a16d5626dc8118cb45ec6315bb1c8ff683465d0c079
+PRIVATE : xxxx
 
 ---
 cd ~/go/src/github.com/TTCECO/gttc/build/bin/
-echo "fedora" > pass.txt
-./gttc --datadir chl/ --port 30303 -unlock 't0b941587170843011e569ca498031b63c00cf7631' --password pass.txt --mine
-nohup  ./gttc --datadir chl/ --port 30303 -unlock 'addr' --password pass.txt --mine > output.chl &
+echo "pwd" > pass.txt
+./gttc --datadir xxx/ --port 30303 -unlock 't0b941587170843011e569ca498031b63c00cf7631' --password pass.txt --mine
+nohup  ./gttc --datadir xxx/ --port 30303 -unlock 'addr' --password pass.txt --mine > output.xxx &
 
 /sbin/iptables -I OUTPUT -p tcp –sport $uports –dport 30303 -j ACCEPT
 /sbin/iptables -I INPUT -p tcp –sport 30303 –dport $uports -j ACCEPT
 
 ---
 cd ~/go/src/github.com/TTCECO/gttc/build/bin/
- ./gttc attach chl/gttc.ipc
+ ./gttc attach xxx/gttc.ipc
 ---
 https://github.com/TTCECO/gttc/wiki/Public-Enode-address
 
 ---
-tail -20  output.chl
+tail -20  output.xxx
 ps -ef | grep gttc
 
 -----
@@ -91,7 +91,7 @@ value: web3.toWei(10, "ether")
 });
 
 ---
-cd ~/go/src/github.com/TTCECO/gttc/cmd/ethkey/chl
+cd ~/go/src/github.com/TTCECO/gttc/cmd/ethkey/xxx
 mkdir pkbackup
 cd keystore
 sudo cp * ../pkbackup
